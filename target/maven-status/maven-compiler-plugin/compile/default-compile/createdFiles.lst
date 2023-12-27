@@ -1,0 +1,6 @@
+com\neo\model\ReplyMsgClass.class
+com\neo\config\BaseResult.class
+com\neo\controller\HSController.class
+com\neo\config\SwaggerConfig.class
+com\neo\config\BaseResult$ResponseParam.class
+com\neo\SwaggerApplication.class

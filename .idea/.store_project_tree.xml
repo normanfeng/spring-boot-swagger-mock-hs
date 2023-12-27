@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.13" class="java.beans.XMLDecoder">
+ <object class="javax.swing.tree.DefaultTreeModel">
+  <object class="com.abfuzz.model.vo.TreeDataModel">
+   <void method="add">
+    <object class="com.abfuzz.model.vo.TreeDataModel">
+     <void method="add">
+      <object class="com.abfuzz.model.vo.TreeDataModel">
+       <void method="add">
+        <object class="com.abfuzz.model.vo.TreeDataModel">
+         <void property="aliasId">
+          <string>a2386c5a62697b80b4d83fc26c1b5610</string>
+         </void>
+         <void property="aliasName">
+          <string>test-webgoat</string>
+         </void>
+         <void property="allowsChildren">
+          <boolean>false</boolean>
+         </void>
+         <void property="apis">
+          <string>[{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/user/&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;methodPath&quot;:&quot;&quot;,&quot;location&quot;:&quot;UserController#getUserList&quot;,&quot;methodDesc&quot;:&quot;获取用户列表&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;POST&quot;,&quot;url&quot;:&quot;/user/&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;POST&quot;,&quot;methodPath&quot;:&quot;/&quot;,&quot;location&quot;:&quot;UserController#postUser&quot;,&quot;methodDesc&quot;:&quot;创建用户&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/user/{id}&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;methodPath&quot;:&quot;/{id}&quot;,&quot;location&quot;:&quot;UserController#getUser&quot;,&quot;methodDesc&quot;:&quot;获取用户详细信息&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;PUT&quot;,&quot;url&quot;:&quot;/user/&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;PUT&quot;,&quot;methodPath&quot;:&quot;/&quot;,&quot;location&quot;:&quot;UserController#putUser&quot;,&quot;methodDesc&quot;:&quot;更新用户信息&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;POST&quot;,&quot;url&quot;:&quot;/user/user_list&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;POST&quot;,&quot;methodPath&quot;:&quot;user_list&quot;,&quot;location&quot;:&quot;UserController#userArray&quot;,&quot;methodDesc&quot;:&quot;&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/user/boolean&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;methodPath&quot;:&quot;/boolean&quot;,&quot;location&quot;:&quot;UserController#hasUser&quot;,&quot;methodDesc&quot;:&quot;获取用户详细信息&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;POST&quot;,&quot;url&quot;:&quot;/user/user_object&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;POST&quot;,&quot;methodPath&quot;:&quot;/user_object&quot;,&quot;location&quot;:&quot;UserController#userObject&quot;,&quot;methodDesc&quot;:&quot;用户对象&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/user/number/{id}&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;methodPath&quot;:&quot;/number/{id}&quot;,&quot;location&quot;:&quot;UserController#getUserNumber&quot;,&quot;methodDesc&quot;:&quot;&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/user/get_header&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;methodPath&quot;:&quot;/get_header&quot;,&quot;location&quot;:&quot;UserController#getHeader&quot;,&quot;methodDesc&quot;:&quot;get_header&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/user/get_cookie&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;methodPath&quot;:&quot;/get_cookie&quot;,&quot;location&quot;:&quot;UserController#getCookie&quot;,&quot;methodDesc&quot;:&quot;get_cookie&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;DELETE&quot;,&quot;url&quot;:&quot;/user/{id}&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;DELETE&quot;,&quot;methodPath&quot;:&quot;/{id}&quot;,&quot;location&quot;:&quot;UserController#deleteUser&quot;,&quot;methodDesc&quot;:&quot;&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;DELETE&quot;,&quot;url&quot;:&quot;/user/ignoreMe/{id}&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;DELETE&quot;,&quot;methodPath&quot;:&quot;/ignoreMe/{id}&quot;,&quot;location&quot;:&quot;UserController#ignoreMe&quot;,&quot;methodDesc&quot;:&quot;&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/get_path&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;methodPath&quot;:&quot;get_path&quot;,&quot;location&quot;:&quot;MessageController#getPathString&quot;,&quot;methodDesc&quot;:&quot;get path string&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/crlf&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;methodPath&quot;:&quot;crlf&quot;,&quot;location&quot;:&quot;MessageController#crlf&quot;,&quot;methodDesc&quot;:&quot;crlf case&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/messages&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;methodPath&quot;:&quot;messages&quot;,&quot;location&quot;:&quot;MessageController#list&quot;,&quot;methodDesc&quot;:&quot;消息列表&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;POST&quot;,&quot;url&quot;:&quot;/message&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;POST&quot;,&quot;methodPath&quot;:&quot;message&quot;,&quot;location&quot;:&quot;MessageController#create&quot;,&quot;methodDesc&quot;:&quot;添加消息&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;POST&quot;,&quot;url&quot;:&quot;/body_message&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;POST&quot;,&quot;methodPath&quot;:&quot;body_message&quot;,&quot;location&quot;:&quot;MessageController#body_create&quot;,&quot;methodDesc&quot;:&quot;添加消息&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;PUT&quot;,&quot;url&quot;:&quot;/message&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;PUT&quot;,&quot;methodPath&quot;:&quot;message&quot;,&quot;location&quot;:&quot;MessageController#modify&quot;,&quot;methodDesc&quot;:&quot;修改消息&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/message/{id}&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;methodPath&quot;:&quot;message/{id}&quot;,&quot;location&quot;:&quot;MessageController#get&quot;,&quot;methodDesc&quot;:&quot;&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;DELETE&quot;,&quot;url&quot;:&quot;/message/{id}&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;DELETE&quot;,&quot;methodPath&quot;:&quot;message/{id}&quot;,&quot;location&quot;:&quot;MessageController#delete&quot;,&quot;methodDesc&quot;:&quot;&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false}]</string>
+         </void>
+         <void property="arch">
+          <string>linux/amd64</string>
+         </void>
+         <void property="args">
+          <string></string>
+         </void>
+         <void property="duration">
+          <int>1</int>
+         </void>
+         <void property="environment">
+          <string></string>
+         </void>
+         <void property="instanceId">
+          <string>4d693cf5baecfce9052a641a4955f4c9</string>
+         </void>
+         <void property="instanceName">
+          <string>2</string>
+         </void>
+         <void property="interfaceTimeout">
+          <int>5</int>
+         </void>
+         <void property="jarId">
+          <string>a44a1f48d37e123ff6d9497b54a5aa6f</string>
+         </void>
+         <void property="jdk">
+          <string>openjdk/8</string>
+         </void>
+         <void property="label">
+          <string>root_8a9efd6f4526741fa97e409afea9fa7f_test-webgoat_4d693cf5baecfce9052a641a4955f4c9</string>
+         </void>
+         <void property="openApi">
+          <string>D:/Share/易恒/java-samples/spring-boot-examples/spring-boot-swagger/.idea/.6fb524cf-8584-4a0b-8fd0-a83d3ed82fbe.json</string>
+         </void>
+         <void property="openApiId">
+          <string>fe8d5217a18f23b78593dbde7089b18f</string>
+         </void>
+         <void property="os">
+          <string>Ubuntu/20.04</string>
+         </void>
+         <void property="projectId">
+          <string>8a9efd6f4526741fa97e409afea9fa7f</string>
+         </void>
+         <void property="projectName">
+          <string>webgoat-test</string>
+         </void>
+         <void property="scanPackage">
+          <string>org.owasp.webgoat</string>
+         </void>
+         <void property="showName">
+          <string>2</string>
+         </void>
+         <void property="type">
+          <int>2</int>
+         </void>
+        </object>
+       </void>
+       <void property="aliasId">
+        <string>a2386c5a62697b80b4d83fc26c1b5610</string>
+       </void>
+       <void property="aliasName">
+        <string>test-webgoat</string>
+       </void>
+       <void property="apis">
+        <string>[{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/user/&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;methodPath&quot;:&quot;&quot;,&quot;location&quot;:&quot;UserController#getUserList&quot;,&quot;methodDesc&quot;:&quot;获取用户列表&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;POST&quot;,&quot;url&quot;:&quot;/user/&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;POST&quot;,&quot;methodPath&quot;:&quot;/&quot;,&quot;location&quot;:&quot;UserController#postUser&quot;,&quot;methodDesc&quot;:&quot;创建用户&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/user/{id}&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;methodPath&quot;:&quot;/{id}&quot;,&quot;location&quot;:&quot;UserController#getUser&quot;,&quot;methodDesc&quot;:&quot;获取用户详细信息&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;PUT&quot;,&quot;url&quot;:&quot;/user/&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;PUT&quot;,&quot;methodPath&quot;:&quot;/&quot;,&quot;location&quot;:&quot;UserController#putUser&quot;,&quot;methodDesc&quot;:&quot;更新用户信息&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;POST&quot;,&quot;url&quot;:&quot;/user/user_list&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;POST&quot;,&quot;methodPath&quot;:&quot;user_list&quot;,&quot;location&quot;:&quot;UserController#userArray&quot;,&quot;methodDesc&quot;:&quot;&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/user/boolean&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;methodPath&quot;:&quot;/boolean&quot;,&quot;location&quot;:&quot;UserController#hasUser&quot;,&quot;methodDesc&quot;:&quot;获取用户详细信息&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;POST&quot;,&quot;url&quot;:&quot;/user/user_object&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;POST&quot;,&quot;methodPath&quot;:&quot;/user_object&quot;,&quot;location&quot;:&quot;UserController#userObject&quot;,&quot;methodDesc&quot;:&quot;用户对象&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/user/number/{id}&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;methodPath&quot;:&quot;/number/{id}&quot;,&quot;location&quot;:&quot;UserController#getUserNumber&quot;,&quot;methodDesc&quot;:&quot;&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/user/get_header&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;methodPath&quot;:&quot;/get_header&quot;,&quot;location&quot;:&quot;UserController#getHeader&quot;,&quot;methodDesc&quot;:&quot;get_header&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/user/get_cookie&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;methodPath&quot;:&quot;/get_cookie&quot;,&quot;location&quot;:&quot;UserController#getCookie&quot;,&quot;methodDesc&quot;:&quot;get_cookie&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;DELETE&quot;,&quot;url&quot;:&quot;/user/{id}&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;DELETE&quot;,&quot;methodPath&quot;:&quot;/{id}&quot;,&quot;location&quot;:&quot;UserController#deleteUser&quot;,&quot;methodDesc&quot;:&quot;&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;DELETE&quot;,&quot;url&quot;:&quot;/user/ignoreMe/{id}&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;DELETE&quot;,&quot;methodPath&quot;:&quot;/ignoreMe/{id}&quot;,&quot;location&quot;:&quot;UserController#ignoreMe&quot;,&quot;methodDesc&quot;:&quot;&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/get_path&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;methodPath&quot;:&quot;get_path&quot;,&quot;location&quot;:&quot;MessageController#getPathString&quot;,&quot;methodDesc&quot;:&quot;get path string&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/crlf&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;methodPath&quot;:&quot;crlf&quot;,&quot;location&quot;:&quot;MessageController#crlf&quot;,&quot;methodDesc&quot;:&quot;crlf case&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/messages&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;methodPath&quot;:&quot;messages&quot;,&quot;location&quot;:&quot;MessageController#list&quot;,&quot;methodDesc&quot;:&quot;消息列表&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;POST&quot;,&quot;url&quot;:&quot;/message&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;POST&quot;,&quot;methodPath&quot;:&quot;message&quot;,&quot;location&quot;:&quot;MessageController#create&quot;,&quot;methodDesc&quot;:&quot;添加消息&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;POST&quot;,&quot;url&quot;:&quot;/body_message&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;POST&quot;,&quot;methodPath&quot;:&quot;body_message&quot;,&quot;location&quot;:&quot;MessageController#body_create&quot;,&quot;methodDesc&quot;:&quot;添加消息&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;PUT&quot;,&quot;url&quot;:&quot;/message&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;PUT&quot;,&quot;methodPath&quot;:&quot;message&quot;,&quot;location&quot;:&quot;MessageController#modify&quot;,&quot;methodDesc&quot;:&quot;修改消息&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/message/{id}&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;GET&quot;,&quot;methodPath&quot;:&quot;message/{id}&quot;,&quot;location&quot;:&quot;MessageController#get&quot;,&quot;methodDesc&quot;:&quot;&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false},{&quot;psiElement&quot;:{},&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;DELETE&quot;,&quot;url&quot;:&quot;/message/{id}&quot;,&quot;methodPathInfo&quot;:{&quot;psiMethod&quot;:{},&quot;httpMethod&quot;:&quot;DELETE&quot;,&quot;methodPath&quot;:&quot;message/{id}&quot;,&quot;location&quot;:&quot;MessageController#delete&quot;,&quot;methodDesc&quot;:&quot;&quot;,&quot;params&quot;:[]},&quot;strikeThrough&quot;:false}]</string>
+       </void>
+       <void property="arch">
+        <string>linux/amd64</string>
+       </void>
+       <void property="args">
+        <string></string>
+       </void>
+       <void property="duration">
+        <int>1</int>
+       </void>
+       <void property="environment">
+        <string></string>
+       </void>
+       <void property="interfaceTimeout">
+        <int>5</int>
+       </void>
+       <void property="isCreateHarness">
+        <int>1</int>
+       </void>
+       <void property="jarId">
+        <string>a44a1f48d37e123ff6d9497b54a5aa6f</string>
+       </void>
+       <void property="jdk">
+        <string>openjdk/8</string>
+       </void>
+       <void property="label">
+        <string>root_8a9efd6f4526741fa97e409afea9fa7f_test-webgoat</string>
+       </void>
+       <void property="openApi">
+        <string>D:/Share/易恒/java-samples/spring-boot-examples/spring-boot-swagger/.idea/.6fb524cf-8584-4a0b-8fd0-a83d3ed82fbe.json</string>
+       </void>
+       <void property="openApiId">
+        <string>fe8d5217a18f23b78593dbde7089b18f</string>
+       </void>
+       <void property="os">
+        <string>Ubuntu/20.04</string>
+       </void>
+       <void property="projectId">
+        <string>8a9efd6f4526741fa97e409afea9fa7f</string>
+       </void>
+       <void property="projectName">
+        <string>webgoat-test</string>
+       </void>
+       <void property="scanPackage">
+        <string>org.owasp.webgoat</string>
+       </void>
+       <void property="showName">
+        <string>test-webgoat</string>
+       </void>
+       <void property="type">
+        <int>1</int>
+       </void>
+      </object>
+     </void>
+     <void property="interfaceTimeout">
+      <int>5</int>
+     </void>
+     <void property="label">
+      <string>root_8a9efd6f4526741fa97e409afea9fa7f_</string>
+     </void>
+     <void property="projectId">
+      <string>8a9efd6f4526741fa97e409afea9fa7f</string>
+     </void>
+     <void property="projectName">
+      <string>webgoat-test</string>
+     </void>
+     <void property="showName">
+      <string>webgoat-test</string>
+     </void>
+    </object>
+   </void>
+   <void property="label">
+    <string>root</string>
+   </void>
+   <void property="showName">
+    <string>root</string>
+   </void>
+   <void property="type">
+    <int>-1</int>
+   </void>
+  </object>
+ </object>
+</java>

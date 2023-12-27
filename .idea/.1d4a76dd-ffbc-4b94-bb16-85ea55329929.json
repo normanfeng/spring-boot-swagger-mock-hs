@@ -1,0 +1,1035 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Api Documentation",
+    "description": "Api Documentation",
+    "contact": {},
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    },
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "http://127.0.0.1:8080/"
+    }
+  ],
+  "tags": [
+    {
+      "name": "message-controller",
+      "description": "消息操作 API"
+    },
+    {
+      "name": "user-controller",
+      "description": "用户管理API"
+    }
+  ],
+  "paths": {
+    "/crlf": {
+      "get": {
+        "tags": [
+          "message-controller"
+        ],
+        "summary": "get path string",
+        "description": "测试用接口",
+        "operationId": "crlfUsingGET",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "description": "id",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "%0d%0a%0d%0ahttp://127.0.0.1:8080/messages%0d%0aSet-Cookie:crlf=ture"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {}
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/get_path": {
+      "get": {
+        "tags": [
+          "message-controller"
+        ],
+        "summary": "get path string",
+        "description": "测试用接口",
+        "operationId": "getPathStringUsingGET",
+        "parameters": [
+          {
+            "name": "path",
+            "in": "query",
+            "description": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "/home/../root/test"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/body_message": {
+      "post": {
+        "tags": [
+          "message-controller"
+        ],
+        "summary": "添加消息",
+        "description": "根据参数创建消息 via body",
+        "operationId": "body_createUsingPOST",
+        "requestBody": {
+          "description": "message",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Message"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Message"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false,
+        "x-codegen-request-body-name": "message"
+      }
+    },
+    "/message": {
+      "put": {
+        "tags": [
+          "message-controller"
+        ],
+        "summary": "修改消息",
+        "description": "根据参数修改消息",
+        "operationId": "modifyUsingPUT",
+        "parameters": [
+          {
+            "name": "createDate",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time",
+              "example": "2000/10/10"
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1
+            }
+          },
+          {
+            "name": "summary",
+            "in": "query",
+            "description": "消息总结",
+            "schema": {
+              "type": "string",
+              "example": "report summary"
+            }
+          },
+          {
+            "name": "text",
+            "in": "query",
+            "description": "消息体",
+            "schema": {
+              "type": "string",
+              "example": "info text"
+            }
+          }
+        ],
+        "responses": {
+          "100": {
+            "description": "请求参数有误",
+            "content": {}
+          },
+          "101": {
+            "description": "未授权",
+            "content": {}
+          },
+          "103": {
+            "description": "禁止访问",
+            "content": {}
+          },
+          "104": {
+            "description": "请求路径不存在",
+            "content": {}
+          },
+          "200": {
+            "description": "服务器内部错误",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/Message"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      },
+      "post": {
+        "tags": [
+          "message-controller"
+        ],
+        "summary": "添加消息",
+        "description": "根据参数创建消息",
+        "operationId": "createUsingPOST",
+        "parameters": [
+          {
+            "name": "createDate",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time",
+              "example": "2000/10/10"
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "description": "消息 ID",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1
+            }
+          },
+          {
+            "name": "summary",
+            "in": "query",
+            "description": "摘要",
+            "schema": {
+              "type": "string",
+              "example": "report summary"
+            }
+          },
+          {
+            "name": "text",
+            "in": "query",
+            "description": "正文",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "infor text"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/Message"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/message/text": {
+      "patch": {
+        "tags": [
+          "message-controller"
+        ],
+        "summary": "patch",
+        "operationId": "patchUsingPATCH",
+        "parameters": [
+          {
+            "name": "createDate",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time",
+              "example": "2000/10/10"
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1
+            }
+          },
+          {
+            "name": "summary",
+            "in": "query",
+            "description": "消息总结",
+            "schema": {
+              "type": "string",
+              "example": "report summary"
+            }
+          },
+          {
+            "name": "text",
+            "in": "query",
+            "description": "消息体",
+            "schema": {
+              "type": "string",
+              "example": "info text"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseResultOfMessage"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/message/{id}": {
+      "get": {
+        "tags": [
+          "message-controller"
+        ],
+        "summary": "get",
+        "operationId": "getUsingGET",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "id",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/Message"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      },
+      "delete": {
+        "tags": [
+          "message-controller"
+        ],
+        "summary": "delete",
+        "operationId": "deleteUsingDELETE",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "id",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {}
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/messages": {
+      "get": {
+        "tags": [
+          "message-controller"
+        ],
+        "summary": "消息列表",
+        "description": "完整的消息内容列表",
+        "operationId": "listUsingGET",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {}
+                  }
+                }
+              },
+              "application/xml": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {}
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {}
+                  }
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/user": {
+      "get": {
+        "tags": [
+          "user-controller"
+        ],
+        "summary": "获取用户列表",
+        "description": "查询用户列表",
+        "operationId": "getUserListUsingGET",
+        "responses": {
+          "100": {
+            "description": "异常数据",
+            "content": {}
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/User"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/user/": {
+      "put": {
+        "tags": [
+          "user-controller"
+        ],
+        "summary": "更新用户信息",
+        "description": "根据用户ID更新信息",
+        "operationId": "putUserUsingPUT",
+        "parameters": [
+          {
+            "name": "age",
+            "in": "query",
+            "description": "年龄",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "20"
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "description": "用户ID",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1
+            }
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "description": "用户名",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "Duck"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseResultOfUser"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      },
+      "post": {
+        "tags": [
+          "user-controller"
+        ],
+        "summary": "创建用户",
+        "description": "根据User对象创建用户",
+        "operationId": "postUserUsingPOST",
+        "parameters": [
+          {
+            "name": "age",
+            "in": "query",
+            "description": "年龄",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "20"
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "description": "用户ID",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1
+            }
+          },
+          {
+            "name": "ipAddr",
+            "in": "query",
+            "description": "ip哟",
+            "schema": {
+              "type": "string",
+              "example": "192.168.1.71"
+            }
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "description": "用户名",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "Micky"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseResultOfUser"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/user/ignoreMe/{id}": {
+      "delete": {
+        "tags": [
+          "user-controller"
+        ],
+        "summary": "ignoreMe",
+        "operationId": "ignoreMeUsingDELETE",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "id",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/user/{id}": {
+      "get": {
+        "tags": [
+          "user-controller"
+        ],
+        "summary": "获取用户详细信息",
+        "description": "根据url的id来获取用户详细信息",
+        "operationId": "getUserUsingGET",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "用户ID",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      },
+      "delete": {
+        "tags": [
+          "user-controller"
+        ],
+        "summary": "deleteUser",
+        "operationId": "deleteUserUsingDELETE",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "id",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/user/boolean": {
+      "get": {
+        "tags": [
+          "user-controller"
+        ],
+        "summary": "获取用户详细信息",
+        "description": "根据url的id来获取用户详细信息",
+        "operationId": "hasUserUsingGET",
+        "parameters": [
+          {
+            "name": "hasusers",
+            "in": "query",
+            "description": "用户ID",
+            "required": true,
+            "schema": {
+              "type": "boolean",
+              "example": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/user/number/{id}": {
+      "get": {
+        "tags": [
+          "user-controller"
+        ],
+        "summary": "getUserNumber",
+        "operationId": "getUserNumberUsingGET",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "id",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "format": "float",
+              "example": 3.14
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/user/user_object": {
+      "post": {
+        "tags": [
+          "user-controller"
+        ],
+        "summary": "用户对象",
+        "description": "Post User Object",
+        "operationId": "userObjectUsingPOST",
+        "requestBody": {
+          "description": "user",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseResultOfUser"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false,
+        "x-codegen-request-body-name": "user"
+      }
+    },
+    "/user/user_list": {
+      "post": {
+        "tags": [
+          "user-controller"
+        ],
+        "summary": "userArray",
+        "operationId": "userArrayUsingPOST",
+        "requestBody": {
+          "description": "userlist",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "example": [
+                  {
+                    "id": 1,
+                    "name": "alex",
+                    "age": 28
+                  },
+                  {
+                    "id": 2,
+                    "name": "lisa",
+                    "age": 20
+                  }
+                ],
+                "items": {
+                  "$ref": "#/components/schemas/User"
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false,
+        "x-codegen-request-body-name": "userlist"
+      }
+    },
+    "/user/get_cookie": {
+      "get": {
+        "tags": [
+          "user-controller"
+        ],
+        "summary": "get_cookie",
+        "description": "测试设置cookie信息",
+        "operationId": "getCookieUsingGET",
+        "parameters": [
+          {
+            "name": "cookie",
+            "in": "header",
+            "description": "cookie",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": "JSESSIONID=B1D30F0EB246460353008BD24761E7E3",
+              "example": "JSESSIONID=B1D30F0EB246460353008BD24761E7E3"
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "description": "id",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/user/get_header": {
+      "get": {
+        "tags": [
+          "user-controller"
+        ],
+        "summary": "get_header",
+        "description": "测试设置头信息",
+        "operationId": "getHeaderUsingGET",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "description": "id",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "token",
+            "in": "header",
+            "description": "token",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "88888888"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BaseResultOfMessage": {
+        "title": "BaseResultOfMessage",
+        "required": [
+          "code",
+          "msg"
+        ],
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "integer",
+            "description": "响应码",
+            "format": "int32",
+            "example": 0
+          },
+          "data": {
+            "$ref": "#/components/schemas/Message"
+          },
+          "msg": {
+            "type": "string",
+            "description": "响应消息",
+            "example": "成功"
+          }
+        },
+        "description": "响应对象"
+      },
+      "BaseResultOfUser": {
+        "title": "BaseResultOfUser",
+        "required": [
+          "code",
+          "msg"
+        ],
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "integer",
+            "description": "响应码",
+            "format": "int32",
+            "example": 0
+          },
+          "data": {
+            "$ref": "#/components/schemas/User"
+          },
+          "msg": {
+            "type": "string",
+            "description": "响应消息",
+            "example": "成功"
+          }
+        },
+        "description": "响应对象"
+      },
+      "Message": {
+        "title": "Message",
+        "type": "object",
+        "properties": {
+          "createDate": {
+            "type": "string",
+            "format": "date-time",
+            "example": "2000/10/10"
+          },
+          "id": {
+            "type": "integer",
+            "format": "int64",
+            "example": 1
+          },
+          "summary": {
+            "type": "string",
+            "example": "report details",
+            "description": "消息总结"
+          },
+          "text": {
+            "type": "string",
+            "example": "information text",
+            "description": "消息体"
+          }
+        }
+      },
+      "User": {
+        "title": "User",
+        "type": "object",
+        "properties": {
+          "age": {
+            "type": "integer",
+            "format": "int32",
+            "example": 20
+          },
+          "id": {
+            "type": "integer",
+            "format": "int64",
+            "example": 1
+          },
+          "name": {
+            "type": "string",
+            "example": "Duck"
+          }
+        }
+      }
+    }
+  }
+}

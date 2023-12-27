@@ -1,0 +1,9 @@
+name:John
+age:25
+is_active:true
+numbers:1,2,3
+user:{
+  "name": "John",
+  "age": 25,
+  "city": "New York"
+}

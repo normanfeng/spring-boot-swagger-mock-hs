@@ -1,0 +1,492 @@
+2023-09-07 09:47:35.901  INFO 11736 --- [main] com.neo.web.MessageControllerTest        : Starting MessageControllerTest on fengxiaoyang with PID 11736 (started by norman in D:\Share\易恒\java-samples\spring-boot-swagger-mock-hs)
+2023-09-07 09:47:35.900  INFO 5924 --- [main] com.neo.web.MessageControllerTest        : Starting MessageControllerTest on fengxiaoyang with PID 5924 (started by norman in D:\Share\易恒\java-samples\spring-boot-swagger-mock-hs)
+2023-09-07 09:47:35.904  INFO 11736 --- [main] com.neo.web.MessageControllerTest        : No active profile set, falling back to default profiles: default
+2023-09-07 09:47:35.904  INFO 5924 --- [main] com.neo.web.MessageControllerTest        : No active profile set, falling back to default profiles: default
+2023-09-07 09:47:37.988  INFO 5924 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-09-07 09:47:37.990  INFO 11736 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-09-07 09:47:38.589  INFO 5924 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 09:47:38.647  INFO 11736 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 09:47:39.040  INFO 5924 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-09-07 09:47:39.067  INFO 5924 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-09-07 09:47:39.122  INFO 5924 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-09-07 09:47:39.111  INFO 11736 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-09-07 09:47:39.150  INFO 11736 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-09-07 09:47:39.185  INFO 11736 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-09-07 09:47:39.208  INFO 5924 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_1
+2023-09-07 09:47:39.217  INFO 5924 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_2
+2023-09-07 09:47:39.220  INFO 5924 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_3
+2023-09-07 09:47:39.222  INFO 5924 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_4
+2023-09-07 09:47:39.224  INFO 5924 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_5
+2023-09-07 09:47:39.227  INFO 5924 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_6
+2023-09-07 09:47:39.261  INFO 11736 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_1
+2023-09-07 09:47:39.264  INFO 11736 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_2
+2023-09-07 09:47:39.267  INFO 11736 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_3
+2023-09-07 09:47:39.269  INFO 11736 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_4
+2023-09-07 09:47:39.279  INFO 11736 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_5
+2023-09-07 09:47:39.285  INFO 11736 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_6
+2023-09-07 09:47:39.329  INFO 5924 --- [main] com.neo.web.MessageControllerTest        : Started MessageControllerTest in 3.66 seconds (JVM running for 4.568)
+2023-09-07 09:47:39.337  INFO 11736 --- [main] com.neo.web.MessageControllerTest        : Started MessageControllerTest in 3.671 seconds (JVM running for 4.572)
+2023-09-07 09:47:39.610  INFO 11736 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 09:47:39.611  INFO 11736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 09:47:39.612  INFO 5924 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 09:47:39.612  INFO 5924 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 09:47:39.620  INFO 5924 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 8 ms
+2023-09-07 09:47:39.621  INFO 11736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 10 ms
+2023-09-07 09:47:39.683  INFO 5924 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 09:47:39.687  INFO 5924 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 09:47:39.691  INFO 5924 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2023-09-07 09:47:39.698  INFO 11736 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 09:47:39.698  INFO 11736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 09:47:39.700  INFO 11736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-09-07 09:47:39.727  INFO 11736 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 09:47:39.727  INFO 11736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 09:47:39.729  INFO 11736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-09-07 09:47:39.740  INFO 5924 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 09:47:39.741  INFO 5924 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 09:47:39.743  INFO 5924 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-09-07 09:47:39.752  INFO 11736 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 09:47:39.753  INFO 11736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 09:47:39.756  INFO 11736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2023-09-07 09:47:39.773  INFO 5924 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 09:47:39.773  INFO 5924 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 09:47:39.775  INFO 5924 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-09-07 09:47:39.799  INFO 11736 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 09:47:39.799  INFO 11736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 09:47:39.801  INFO 11736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-09-07 09:47:39.820  INFO 11736 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 09:47:39.820  INFO 11736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 09:47:39.824  INFO 11736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2023-09-07 09:47:39.848  INFO 5924 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 09:47:39.848  INFO 5924 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 09:47:39.850  INFO 5924 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-09-07 09:47:39.871  INFO 5924 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 09:47:39.872  INFO 5924 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 09:47:39.874  INFO 5924 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-09-07 09:47:39.990  INFO 5924 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 09:47:40.017  INFO 11736 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 09:49:28.869  INFO 21728 --- [restartedMain] com.neo.SwaggerApplication               : Starting SwaggerApplication on fengxiaoyang with PID 21728 (started by norman in D:\Share\易恒\java-samples\spring-boot-swagger-mock-hs)
+2023-09-07 09:49:28.871  INFO 21728 --- [restartedMain] com.neo.SwaggerApplication               : No active profile set, falling back to default profiles: default
+2023-09-07 09:49:28.901  INFO 21728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-07 09:49:28.901  INFO 21728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-07 09:49:29.807  INFO 21728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-07 09:49:29.820  INFO 21728 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-07 09:49:29.820  INFO 21728 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-09-07 09:49:29.825  INFO 21728 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\LLVM\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;D:\SW\Dev tools\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk-11.0.12\bin;D:\SW\Dev tools\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\ProgramData\chocolatey\bin;D:\curl;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\norman\AppData\Local\Microsoft\WindowsApps;C:\Users\norman\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\norman\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\bin;D:\nodejs\node_global;D:\nodejs\;C:\Users\norman\AppData\Roaming\npm;.]
+2023-09-07 09:49:29.876  INFO 21728 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-07 09:49:29.876  INFO 21728 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 975 ms
+2023-09-07 09:49:29.890  INFO 21728 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-09-07 09:49:29.893  INFO 21728 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-09-07 09:49:29.893  INFO 21728 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-09-07 09:49:29.893  INFO 21728 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-09-07 09:49:29.893  INFO 21728 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-09-07 09:49:30.107  INFO 21728 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-09-07 09:49:30.196  INFO 21728 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 09:49:30.220  INFO 21728 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-07 09:49:30.286  INFO 21728 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-09-07 09:49:30.294  INFO 21728 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-09-07 09:49:30.307  INFO 21728 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-09-07 09:49:30.340  INFO 21728 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_1
+2023-09-07 09:49:30.342  INFO 21728 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_2
+2023-09-07 09:49:30.344  INFO 21728 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_3
+2023-09-07 09:49:30.346  INFO 21728 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_4
+2023-09-07 09:49:30.347  INFO 21728 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_5
+2023-09-07 09:49:30.349  INFO 21728 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_6
+2023-09-07 09:49:30.391  INFO 21728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-07 09:49:30.396  INFO 21728 --- [restartedMain] com.neo.SwaggerApplication               : Started SwaggerApplication in 1.759 seconds (JVM running for 2.916)
+2023-09-07 09:51:03.117  INFO 21728 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-07 09:51:03.118  INFO 21728 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-07 09:51:03.122  INFO 21728 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-09-07 09:59:33.096  INFO 21728 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 09:59:48.073  INFO 19792 --- [restartedMain] com.neo.SwaggerApplication               : Starting SwaggerApplication on fengxiaoyang with PID 19792 (started by norman in D:\Share\易恒\java-samples\spring-boot-swagger-mock-hs)
+2023-09-07 09:59:48.074  INFO 19792 --- [restartedMain] com.neo.SwaggerApplication               : No active profile set, falling back to default profiles: default
+2023-09-07 09:59:48.095  INFO 19792 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-07 09:59:48.095  INFO 19792 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-07 09:59:48.796  INFO 19792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-07 09:59:48.806  INFO 19792 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-07 09:59:48.806  INFO 19792 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-09-07 09:59:48.812  INFO 19792 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\LLVM\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;D:\SW\Dev tools\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk-11.0.12\bin;D:\SW\Dev tools\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\ProgramData\chocolatey\bin;D:\curl;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\norman\AppData\Local\Microsoft\WindowsApps;C:\Users\norman\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\norman\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\bin;D:\nodejs\node_global;D:\nodejs\;C:\Users\norman\AppData\Roaming\npm;.]
+2023-09-07 09:59:48.855  INFO 19792 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-07 09:59:48.855  INFO 19792 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 760 ms
+2023-09-07 09:59:48.869  INFO 19792 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-09-07 09:59:48.872  INFO 19792 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-09-07 09:59:48.872  INFO 19792 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-09-07 09:59:48.872  INFO 19792 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-09-07 09:59:48.872  INFO 19792 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-09-07 09:59:49.032  INFO 19792 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-09-07 09:59:49.096  INFO 19792 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 09:59:49.118  INFO 19792 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-07 09:59:49.173  INFO 19792 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-09-07 09:59:49.180  INFO 19792 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-09-07 09:59:49.193  INFO 19792 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-09-07 09:59:49.227  INFO 19792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_1
+2023-09-07 09:59:49.228  INFO 19792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_2
+2023-09-07 09:59:49.229  INFO 19792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_3
+2023-09-07 09:59:49.230  INFO 19792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_4
+2023-09-07 09:59:49.231  INFO 19792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_5
+2023-09-07 09:59:49.233  INFO 19792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_6
+2023-09-07 09:59:49.268  INFO 19792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-07 09:59:49.272  INFO 19792 --- [restartedMain] com.neo.SwaggerApplication               : Started SwaggerApplication in 1.363 seconds (JVM running for 2.345)
+2023-09-07 10:00:11.860  INFO 19792 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-07 10:00:11.861  INFO 19792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-07 10:00:11.866  INFO 19792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-09-07 11:10:49.283  INFO 19792 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 11:10:54.156  INFO 18696 --- [restartedMain] com.neo.SwaggerApplication               : Starting SwaggerApplication on fengxiaoyang with PID 18696 (started by norman in D:\Share\易恒\java-samples\spring-boot-swagger-mock-hs)
+2023-09-07 11:10:54.158  INFO 18696 --- [restartedMain] com.neo.SwaggerApplication               : No active profile set, falling back to default profiles: default
+2023-09-07 11:10:54.181  INFO 18696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-07 11:10:54.181  INFO 18696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-07 11:10:54.907  INFO 18696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-07 11:10:54.917  INFO 18696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-07 11:10:54.918  INFO 18696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-09-07 11:10:54.922  INFO 18696 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\LLVM\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;D:\SW\Dev tools\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk-11.0.12\bin;D:\SW\Dev tools\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\ProgramData\chocolatey\bin;D:\curl;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\norman\AppData\Local\Microsoft\WindowsApps;C:\Users\norman\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\norman\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\bin;D:\nodejs\node_global;D:\nodejs\;C:\Users\norman\AppData\Roaming\npm;.]
+2023-09-07 11:10:54.971  INFO 18696 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-07 11:10:54.971  INFO 18696 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 790 ms
+2023-09-07 11:10:54.985  INFO 18696 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-09-07 11:10:54.987  INFO 18696 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-09-07 11:10:54.988  INFO 18696 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-09-07 11:10:54.988  INFO 18696 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-09-07 11:10:54.988  INFO 18696 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-09-07 11:10:55.161  INFO 18696 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-09-07 11:10:55.223  INFO 18696 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 11:10:55.245  INFO 18696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-07 11:10:55.301  INFO 18696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-09-07 11:10:55.308  INFO 18696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-09-07 11:10:55.320  INFO 18696 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-09-07 11:10:55.345  INFO 18696 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_1
+2023-09-07 11:10:55.346  INFO 18696 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_2
+2023-09-07 11:10:55.347  INFO 18696 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_3
+2023-09-07 11:10:55.348  INFO 18696 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_4
+2023-09-07 11:10:55.349  INFO 18696 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_5
+2023-09-07 11:10:55.350  INFO 18696 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_6
+2023-09-07 11:10:55.379  INFO 18696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-07 11:10:55.381  INFO 18696 --- [restartedMain] com.neo.SwaggerApplication               : Started SwaggerApplication in 1.387 seconds (JVM running for 2.437)
+2023-09-07 11:11:08.398  INFO 18696 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-07 11:11:08.401  INFO 18696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-07 11:11:08.406  INFO 18696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-09-07 11:15:44.224  INFO 18696 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 11:15:48.701  INFO 21912 --- [restartedMain] com.neo.SwaggerApplication               : Starting SwaggerApplication on fengxiaoyang with PID 21912 (started by norman in D:\Share\易恒\java-samples\spring-boot-swagger-mock-hs)
+2023-09-07 11:15:48.704  INFO 21912 --- [restartedMain] com.neo.SwaggerApplication               : No active profile set, falling back to default profiles: default
+2023-09-07 11:15:48.726  INFO 21912 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-07 11:15:48.726  INFO 21912 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-07 11:15:49.512  INFO 21912 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-07 11:15:49.522  INFO 21912 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-07 11:15:49.522  INFO 21912 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-09-07 11:15:49.528  INFO 21912 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\LLVM\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;D:\SW\Dev tools\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk-11.0.12\bin;D:\SW\Dev tools\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\ProgramData\chocolatey\bin;D:\curl;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\norman\AppData\Local\Microsoft\WindowsApps;C:\Users\norman\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\norman\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\bin;D:\nodejs\node_global;D:\nodejs\;C:\Users\norman\AppData\Roaming\npm;.]
+2023-09-07 11:15:49.574  INFO 21912 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-07 11:15:49.575  INFO 21912 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 848 ms
+2023-09-07 11:15:49.590  INFO 21912 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-09-07 11:15:49.592  INFO 21912 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-09-07 11:15:49.592  INFO 21912 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-09-07 11:15:49.592  INFO 21912 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-09-07 11:15:49.592  INFO 21912 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-09-07 11:15:49.760  INFO 21912 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-09-07 11:15:49.829  INFO 21912 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 11:15:49.852  INFO 21912 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-07 11:15:49.911  INFO 21912 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-09-07 11:15:49.920  INFO 21912 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-09-07 11:15:49.934  INFO 21912 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-09-07 11:15:49.961  INFO 21912 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_1
+2023-09-07 11:15:49.963  INFO 21912 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_2
+2023-09-07 11:15:49.964  INFO 21912 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_3
+2023-09-07 11:15:49.965  INFO 21912 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_4
+2023-09-07 11:15:49.966  INFO 21912 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_5
+2023-09-07 11:15:49.967  INFO 21912 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_6
+2023-09-07 11:15:50.000  INFO 21912 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-07 11:15:50.003  INFO 21912 --- [restartedMain] com.neo.SwaggerApplication               : Started SwaggerApplication in 1.461 seconds (JVM running for 2.481)
+2023-09-07 11:15:56.248  INFO 21912 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-07 11:15:56.250  INFO 21912 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-07 11:15:56.254  INFO 21912 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-09-07 11:24:53.059  INFO 21912 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 11:24:57.458  INFO 15460 --- [restartedMain] com.neo.SwaggerApplication               : Starting SwaggerApplication on fengxiaoyang with PID 15460 (started by norman in D:\Share\易恒\java-samples\spring-boot-swagger-mock-hs)
+2023-09-07 11:24:57.460  INFO 15460 --- [restartedMain] com.neo.SwaggerApplication               : No active profile set, falling back to default profiles: default
+2023-09-07 11:24:57.480  INFO 15460 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-07 11:24:57.480  INFO 15460 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-07 11:24:58.245  INFO 15460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-07 11:24:58.256  INFO 15460 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-07 11:24:58.256  INFO 15460 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-09-07 11:24:58.260  INFO 15460 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\LLVM\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;D:\SW\Dev tools\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk-11.0.12\bin;D:\SW\Dev tools\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\ProgramData\chocolatey\bin;D:\curl;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\norman\AppData\Local\Microsoft\WindowsApps;C:\Users\norman\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\norman\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\bin;D:\nodejs\node_global;D:\nodejs\;C:\Users\norman\AppData\Roaming\npm;.]
+2023-09-07 11:24:58.303  INFO 15460 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-07 11:24:58.303  INFO 15460 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 823 ms
+2023-09-07 11:24:58.317  INFO 15460 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-09-07 11:24:58.320  INFO 15460 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-09-07 11:24:58.320  INFO 15460 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-09-07 11:24:58.320  INFO 15460 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-09-07 11:24:58.320  INFO 15460 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-09-07 11:24:58.477  INFO 15460 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-09-07 11:24:58.537  INFO 15460 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 11:24:58.559  INFO 15460 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-07 11:24:58.621  INFO 15460 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-09-07 11:24:58.628  INFO 15460 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-09-07 11:24:58.640  INFO 15460 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-09-07 11:24:58.666  INFO 15460 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_1
+2023-09-07 11:24:58.667  INFO 15460 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_2
+2023-09-07 11:24:58.669  INFO 15460 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_3
+2023-09-07 11:24:58.670  INFO 15460 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_4
+2023-09-07 11:24:58.671  INFO 15460 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_5
+2023-09-07 11:24:58.672  INFO 15460 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_6
+2023-09-07 11:24:58.703  INFO 15460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-07 11:24:58.706  INFO 15460 --- [restartedMain] com.neo.SwaggerApplication               : Started SwaggerApplication in 1.411 seconds (JVM running for 2.485)
+2023-09-07 11:27:00.947  INFO 15460 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 11:27:05.375  INFO 20804 --- [restartedMain] com.neo.SwaggerApplication               : Starting SwaggerApplication on fengxiaoyang with PID 20804 (started by norman in D:\Share\易恒\java-samples\spring-boot-swagger-mock-hs)
+2023-09-07 11:27:05.376  INFO 20804 --- [restartedMain] com.neo.SwaggerApplication               : No active profile set, falling back to default profiles: default
+2023-09-07 11:27:05.407  INFO 20804 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-07 11:27:05.407  INFO 20804 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-07 11:27:06.114  INFO 20804 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-07 11:27:06.126  INFO 20804 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-07 11:27:06.126  INFO 20804 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-09-07 11:27:06.131  INFO 20804 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\LLVM\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;D:\SW\Dev tools\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk-11.0.12\bin;D:\SW\Dev tools\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\ProgramData\chocolatey\bin;D:\curl;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\norman\AppData\Local\Microsoft\WindowsApps;C:\Users\norman\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\norman\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\bin;D:\nodejs\node_global;D:\nodejs\;C:\Users\norman\AppData\Roaming\npm;.]
+2023-09-07 11:27:06.174  INFO 20804 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-07 11:27:06.174  INFO 20804 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 767 ms
+2023-09-07 11:27:06.187  INFO 20804 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-09-07 11:27:06.190  INFO 20804 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-09-07 11:27:06.190  INFO 20804 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-09-07 11:27:06.190  INFO 20804 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-09-07 11:27:06.190  INFO 20804 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-09-07 11:27:06.344  INFO 20804 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-09-07 11:27:06.411  INFO 20804 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 11:27:06.432  INFO 20804 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-07 11:27:06.485  INFO 20804 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-09-07 11:27:06.492  INFO 20804 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-09-07 11:27:06.504  INFO 20804 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-09-07 11:27:06.528  INFO 20804 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_1
+2023-09-07 11:27:06.529  INFO 20804 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_2
+2023-09-07 11:27:06.530  INFO 20804 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_3
+2023-09-07 11:27:06.531  INFO 20804 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_4
+2023-09-07 11:27:06.532  INFO 20804 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_5
+2023-09-07 11:27:06.533  INFO 20804 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_6
+2023-09-07 11:27:06.561  INFO 20804 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-07 11:27:06.564  INFO 20804 --- [restartedMain] com.neo.SwaggerApplication               : Started SwaggerApplication in 1.35 seconds (JVM running for 2.332)
+2023-09-07 11:27:11.222  INFO 20804 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-07 11:27:11.223  INFO 20804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-07 11:27:11.228  INFO 20804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-09-07 11:28:35.659  INFO 20804 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 11:28:39.887  INFO 14596 --- [restartedMain] com.neo.SwaggerApplication               : Starting SwaggerApplication on fengxiaoyang with PID 14596 (started by norman in D:\Share\易恒\java-samples\spring-boot-swagger-mock-hs)
+2023-09-07 11:28:39.889  INFO 14596 --- [restartedMain] com.neo.SwaggerApplication               : No active profile set, falling back to default profiles: default
+2023-09-07 11:28:39.910  INFO 14596 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-07 11:28:39.910  INFO 14596 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-07 11:28:40.622  INFO 14596 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-07 11:28:40.631  INFO 14596 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-07 11:28:40.632  INFO 14596 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-09-07 11:28:40.635  INFO 14596 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\LLVM\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;D:\SW\Dev tools\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk-11.0.12\bin;D:\SW\Dev tools\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\ProgramData\chocolatey\bin;D:\curl;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\norman\AppData\Local\Microsoft\WindowsApps;C:\Users\norman\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\norman\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\bin;D:\nodejs\node_global;D:\nodejs\;C:\Users\norman\AppData\Roaming\npm;.]
+2023-09-07 11:28:40.678  INFO 14596 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-07 11:28:40.678  INFO 14596 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 768 ms
+2023-09-07 11:28:40.691  INFO 14596 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-09-07 11:28:40.695  INFO 14596 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-09-07 11:28:40.696  INFO 14596 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-09-07 11:28:40.696  INFO 14596 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-09-07 11:28:40.696  INFO 14596 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-09-07 11:28:40.843  INFO 14596 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-09-07 11:28:40.904  INFO 14596 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 11:28:40.927  INFO 14596 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-07 11:28:40.983  INFO 14596 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-09-07 11:28:40.990  INFO 14596 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-09-07 11:28:41.002  INFO 14596 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-09-07 11:28:41.027  INFO 14596 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_1
+2023-09-07 11:28:41.028  INFO 14596 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_2
+2023-09-07 11:28:41.028  INFO 14596 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_3
+2023-09-07 11:28:41.029  INFO 14596 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_4
+2023-09-07 11:28:41.030  INFO 14596 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_5
+2023-09-07 11:28:41.031  INFO 14596 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_6
+2023-09-07 11:28:41.060  INFO 14596 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-07 11:28:41.064  INFO 14596 --- [restartedMain] com.neo.SwaggerApplication               : Started SwaggerApplication in 1.329 seconds (JVM running for 2.318)
+2023-09-07 11:28:43.661  INFO 14596 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-07 11:28:43.663  INFO 14596 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-07 11:28:43.668  INFO 14596 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-09-07 11:28:58.214  INFO 14596 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 11:29:02.534  INFO 10864 --- [restartedMain] com.neo.SwaggerApplication               : Starting SwaggerApplication on fengxiaoyang with PID 10864 (started by norman in D:\Share\易恒\java-samples\spring-boot-swagger-mock-hs)
+2023-09-07 11:29:02.536  INFO 10864 --- [restartedMain] com.neo.SwaggerApplication               : No active profile set, falling back to default profiles: default
+2023-09-07 11:29:02.558  INFO 10864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-07 11:29:02.558  INFO 10864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-07 11:29:03.260  INFO 10864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-07 11:29:03.271  INFO 10864 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-07 11:29:03.271  INFO 10864 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-09-07 11:29:03.276  INFO 10864 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\LLVM\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;D:\SW\Dev tools\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk-11.0.12\bin;D:\SW\Dev tools\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\ProgramData\chocolatey\bin;D:\curl;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\norman\AppData\Local\Microsoft\WindowsApps;C:\Users\norman\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\norman\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\bin;D:\nodejs\node_global;D:\nodejs\;C:\Users\norman\AppData\Roaming\npm;.]
+2023-09-07 11:29:03.319  INFO 10864 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-07 11:29:03.319  INFO 10864 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 761 ms
+2023-09-07 11:29:03.333  INFO 10864 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-09-07 11:29:03.336  INFO 10864 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-09-07 11:29:03.336  INFO 10864 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-09-07 11:29:03.336  INFO 10864 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-09-07 11:29:03.336  INFO 10864 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-09-07 11:29:03.489  INFO 10864 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-09-07 11:29:03.562  INFO 10864 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 11:29:03.584  INFO 10864 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-07 11:29:03.639  INFO 10864 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-09-07 11:29:03.646  INFO 10864 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-09-07 11:29:03.658  INFO 10864 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-09-07 11:29:03.682  INFO 10864 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_1
+2023-09-07 11:29:03.683  INFO 10864 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_2
+2023-09-07 11:29:03.684  INFO 10864 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_3
+2023-09-07 11:29:03.685  INFO 10864 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_4
+2023-09-07 11:29:03.686  INFO 10864 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_5
+2023-09-07 11:29:03.687  INFO 10864 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_6
+2023-09-07 11:29:03.717  INFO 10864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-07 11:29:03.719  INFO 10864 --- [restartedMain] com.neo.SwaggerApplication               : Started SwaggerApplication in 1.338 seconds (JVM running for 2.353)
+2023-09-07 11:29:07.661  INFO 10864 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-07 11:29:07.663  INFO 10864 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-07 11:29:07.668  INFO 10864 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-09-07 11:29:52.918  INFO 10864 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 11:30:01.741  INFO 14600 --- [main] com.neo.web.MessageControllerTest        : Starting MessageControllerTest on fengxiaoyang with PID 14600 (started by norman in D:\Share\易恒\java-samples\spring-boot-swagger-mock-hs)
+2023-09-07 11:30:01.742  INFO 14600 --- [main] com.neo.web.MessageControllerTest        : No active profile set, falling back to default profiles: default
+2023-09-07 11:30:02.942  INFO 14600 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-09-07 11:30:03.229  INFO 14600 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 11:30:03.372  INFO 14600 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-09-07 11:30:03.385  INFO 14600 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-09-07 11:30:03.404  INFO 14600 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-09-07 11:30:03.438  INFO 14600 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_1
+2023-09-07 11:30:03.440  INFO 14600 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_2
+2023-09-07 11:30:03.442  INFO 14600 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_3
+2023-09-07 11:30:03.444  INFO 14600 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_4
+2023-09-07 11:30:03.446  INFO 14600 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_5
+2023-09-07 11:30:03.447  INFO 14600 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_6
+2023-09-07 11:30:03.471  INFO 14600 --- [main] com.neo.web.MessageControllerTest        : Started MessageControllerTest in 1.873 seconds (JVM running for 2.475)
+2023-09-07 11:30:03.643  INFO 14600 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 11:30:03.643  INFO 14600 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 11:30:03.656  INFO 14600 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 12 ms
+2023-09-07 11:30:03.707  INFO 14600 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 11:30:03.707  INFO 14600 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 11:30:03.709  INFO 14600 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-09-07 11:30:03.735  INFO 14600 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 11:30:03.735  INFO 14600 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 11:30:03.736  INFO 14600 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-09-07 11:30:03.757  INFO 14600 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 11:30:03.758  INFO 14600 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 11:30:03.761  INFO 14600 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2023-09-07 11:30:03.781  INFO 14600 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 11:30:03.783  INFO 14600 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 11:30:03.786  INFO 14600 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-09-07 11:30:03.817  INFO 14600 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 11:30:03.817  INFO 14600 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 11:30:03.820  INFO 14600 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-09-07 11:30:03.855  INFO 14600 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 11:34:32.867  INFO 7748 --- [restartedMain] com.neo.SwaggerApplication               : Starting SwaggerApplication on fengxiaoyang with PID 7748 (started by norman in D:\Share\易恒\java-samples\spring-boot-swagger-mock-hs)
+2023-09-07 11:34:32.868  INFO 7748 --- [restartedMain] com.neo.SwaggerApplication               : No active profile set, falling back to default profiles: default
+2023-09-07 11:34:32.888  INFO 7748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-07 11:34:32.888  INFO 7748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-07 11:34:33.590  INFO 7748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-07 11:34:33.600  INFO 7748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-07 11:34:33.600  INFO 7748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-09-07 11:34:33.605  INFO 7748 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\LLVM\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;D:\SW\Dev tools\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk-11.0.12\bin;D:\SW\Dev tools\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\ProgramData\chocolatey\bin;D:\curl;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\norman\AppData\Local\Microsoft\WindowsApps;C:\Users\norman\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\norman\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\bin;D:\nodejs\node_global;D:\nodejs\;C:\Users\norman\AppData\Roaming\npm;.]
+2023-09-07 11:34:33.647  INFO 7748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-07 11:34:33.647  INFO 7748 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 759 ms
+2023-09-07 11:34:33.661  INFO 7748 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-09-07 11:34:33.663  INFO 7748 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-09-07 11:34:33.664  INFO 7748 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-09-07 11:34:33.664  INFO 7748 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-09-07 11:34:33.664  INFO 7748 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-09-07 11:34:33.821  INFO 7748 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-09-07 11:34:33.883  INFO 7748 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 11:34:33.905  INFO 7748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-07 11:34:33.959  INFO 7748 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-09-07 11:34:33.966  INFO 7748 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-09-07 11:34:33.979  INFO 7748 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-09-07 11:34:34.003  INFO 7748 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_1
+2023-09-07 11:34:34.005  INFO 7748 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_2
+2023-09-07 11:34:34.006  INFO 7748 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_3
+2023-09-07 11:34:34.007  INFO 7748 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_4
+2023-09-07 11:34:34.008  INFO 7748 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_5
+2023-09-07 11:34:34.009  INFO 7748 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_6
+2023-09-07 11:34:34.039  INFO 7748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-07 11:34:34.041  INFO 7748 --- [restartedMain] com.neo.SwaggerApplication               : Started SwaggerApplication in 1.326 seconds (JVM running for 2.378)
+2023-09-07 11:34:41.837  INFO 7748 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-07 11:34:41.838  INFO 7748 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-07 11:34:41.842  INFO 7748 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-09-07 11:36:08.609  INFO 7748 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 11:41:10.102  INFO 20696 --- [main] com.neo.web.MessageControllerTest        : Starting MessageControllerTest on fengxiaoyang with PID 20696 (started by norman in D:\Share\易恒\java-samples\spring-boot-swagger-mock-hs)
+2023-09-07 11:41:10.103  INFO 20696 --- [main] com.neo.web.MessageControllerTest        : No active profile set, falling back to default profiles: default
+2023-09-07 11:41:11.287  INFO 20696 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-09-07 11:41:11.663  INFO 20696 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 11:41:11.846  INFO 20696 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-09-07 11:41:11.866  INFO 20696 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-09-07 11:41:11.888  INFO 20696 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-09-07 11:41:11.935  INFO 20696 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_1
+2023-09-07 11:41:11.938  INFO 20696 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_2
+2023-09-07 11:41:11.940  INFO 20696 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_3
+2023-09-07 11:41:11.942  INFO 20696 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_4
+2023-09-07 11:41:11.943  INFO 20696 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_5
+2023-09-07 11:41:11.945  INFO 20696 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_6
+2023-09-07 11:41:11.977  INFO 20696 --- [main] com.neo.web.MessageControllerTest        : Started MessageControllerTest in 2.027 seconds (JVM running for 2.624)
+2023-09-07 11:41:12.184  INFO 20696 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 11:41:12.184  INFO 20696 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 11:41:12.212  INFO 20696 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 28 ms
+2023-09-07 11:41:12.269  INFO 20696 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 11:41:12.269  INFO 20696 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 11:41:12.271  INFO 20696 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-09-07 11:41:12.291  INFO 20696 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 11:41:12.291  INFO 20696 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 11:41:12.292  INFO 20696 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-09-07 11:41:12.313  INFO 20696 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 11:41:12.313  INFO 20696 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 11:41:12.314  INFO 20696 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-09-07 11:41:12.334  INFO 20696 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 11:41:12.334  INFO 20696 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 11:41:12.336  INFO 20696 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-09-07 11:41:12.351  INFO 20696 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 11:41:12.352  INFO 20696 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 11:41:12.353  INFO 20696 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-09-07 11:41:12.378  INFO 20696 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 14:43:55.396  INFO 3892 --- [restartedMain] com.neo.SwaggerApplication               : Starting SwaggerApplication on fengxiaoyang with PID 3892 (started by norman in D:\Share\易恒\java-samples\spring-boot-swagger-mock-hs)
+2023-09-07 14:43:55.402  INFO 3892 --- [restartedMain] com.neo.SwaggerApplication               : No active profile set, falling back to default profiles: default
+2023-09-07 14:43:55.455  INFO 3892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-07 14:43:55.455  INFO 3892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-07 14:43:56.649  INFO 3892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-07 14:43:56.661  INFO 3892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-07 14:43:56.661  INFO 3892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-09-07 14:43:56.668  INFO 3892 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\LLVM\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;D:\SW\Dev tools\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk-11.0.12\bin;D:\SW\Dev tools\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\ProgramData\chocolatey\bin;D:\curl;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\norman\AppData\Local\Microsoft\WindowsApps;C:\Users\norman\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\norman\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\bin;D:\nodejs\node_global;D:\nodejs\;C:\Users\norman\AppData\Roaming\npm;.]
+2023-09-07 14:43:56.754  INFO 3892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-07 14:43:56.754  INFO 3892 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1299 ms
+2023-09-07 14:43:56.778  INFO 3892 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-09-07 14:43:56.782  INFO 3892 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-09-07 14:43:56.782  INFO 3892 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-09-07 14:43:56.782  INFO 3892 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-09-07 14:43:56.783  INFO 3892 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-09-07 14:43:57.068  INFO 3892 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-09-07 14:43:57.154  INFO 3892 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 14:43:57.188  INFO 3892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-07 14:43:57.258  INFO 3892 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-09-07 14:43:57.272  INFO 3892 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-09-07 14:43:57.295  INFO 3892 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-09-07 14:43:57.337  INFO 3892 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_1
+2023-09-07 14:43:57.340  INFO 3892 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_2
+2023-09-07 14:43:57.343  INFO 3892 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_3
+2023-09-07 14:43:57.345  INFO 3892 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_4
+2023-09-07 14:43:57.348  INFO 3892 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_5
+2023-09-07 14:43:57.349  INFO 3892 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_6
+2023-09-07 14:43:57.395  INFO 3892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-07 14:43:57.399  INFO 3892 --- [restartedMain] com.neo.SwaggerApplication               : Started SwaggerApplication in 2.296 seconds (JVM running for 3.983)
+2023-09-07 14:44:02.981  INFO 3892 --- [http-nio-8080-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-07 14:44:02.982  INFO 3892 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-07 14:44:02.988  INFO 3892 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-09-07 14:45:06.001  INFO 3892 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 14:45:18.400  INFO 18504 --- [main] com.neo.web.MessageControllerTest        : Starting MessageControllerTest on fengxiaoyang with PID 18504 (started by norman in D:\Share\易恒\java-samples\spring-boot-swagger-mock-hs)
+2023-09-07 14:45:18.402  INFO 18504 --- [main] com.neo.web.MessageControllerTest        : No active profile set, falling back to default profiles: default
+2023-09-07 14:45:20.277  INFO 18504 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-09-07 14:45:20.752  INFO 18504 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 14:45:21.003  INFO 18504 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-09-07 14:45:21.030  INFO 18504 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-09-07 14:45:21.057  INFO 18504 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-09-07 14:45:21.108  INFO 18504 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_1
+2023-09-07 14:45:21.112  INFO 18504 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_2
+2023-09-07 14:45:21.115  INFO 18504 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_3
+2023-09-07 14:45:21.117  INFO 18504 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_4
+2023-09-07 14:45:21.119  INFO 18504 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_5
+2023-09-07 14:45:21.123  INFO 18504 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: combinedUsingPOST_6
+2023-09-07 14:45:21.158  INFO 18504 --- [main] com.neo.web.MessageControllerTest        : Started MessageControllerTest in 2.991 seconds (JVM running for 3.966)
+2023-09-07 14:45:21.517  INFO 18504 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 14:45:21.518  INFO 18504 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 14:45:21.526  INFO 18504 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 8 ms
+2023-09-07 14:45:21.592  INFO 18504 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 14:45:21.592  INFO 18504 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 14:45:21.596  INFO 18504 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2023-09-07 14:45:21.633  INFO 18504 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 14:45:21.633  INFO 18504 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 14:45:21.636  INFO 18504 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2023-09-07 14:45:21.668  INFO 18504 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 14:45:21.668  INFO 18504 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 14:45:21.671  INFO 18504 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2023-09-07 14:45:21.695  INFO 18504 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 14:45:21.695  INFO 18504 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 14:45:21.698  INFO 18504 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2023-09-07 14:45:21.722  INFO 18504 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 14:45:21.722  INFO 18504 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 14:45:21.724  INFO 18504 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-09-07 14:45:21.765  INFO 18504 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
